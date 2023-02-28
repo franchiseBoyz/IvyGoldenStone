@@ -1,0 +1,24 @@
+h1 {
+    color: #ffffff;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.container {
+    text-align: center;
+}
+
+.bitcoin-address-header {
+    color:#5a5a5a;
+    font-weight: 400;
+    font-size: medium;
+}
+
+.bitcoin-address {
+    color:#5a5a5a;
+    font-size: 1rem;
+    font-weight: lighter;
+    text-align: center;
+    border:solid lightgreen;
+    border-radius: 3%;
+}

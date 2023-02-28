@@ -1,0 +1,127 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+
+}
+/* NEW STYLES ARE WRITTEN HERE */
+
+.row-featurette {
+  margin: 5%;
+  padding: 5%;
+}
+
+.featurette-heading {
+  font-size: 2.5rem;
+}
+
+.text-end {
+  text-align: center;
+}
+
+h1 {
+  color: rgb(241, 197, 0);
+  justify-content: center;
+}
+p {
+  margin-top: 3rem;
+}
+.btn-success {
+  color: rgb(7, 7, 7);
+  background-color:  rgb(254, 254, 255);
+  border-color:  rgb(3, 3, 3);
+}
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  height: 80%;
+  margin-left: auto;
+  margin-right: auto;
+
+
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 80vh;
+
+  
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  object-fit: cover;
+  
+}
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: 400;
+}
+/* rtl:begin:ignore */
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+/* rtl:end:ignore */
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  /* rtl:remove */
+  letter-spacing: -.05rem;
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 40em) {
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 50px;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 60em) {
+  .featurette-heading {
+    margin-top: 1rem;
+  }
+}
